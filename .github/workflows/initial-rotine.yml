@@ -14,7 +14,7 @@ jobs:
   testes:
     runs-on: ${{matrix.os}}
     env:
-      HOST: 0.0.0.0
+      HOST: localhost
       PORT: 5432
       USER: root
       PASSWORD: root
